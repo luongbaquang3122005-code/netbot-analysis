@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Page-1" id="EhU4693NFbV0ayNRrc70">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vZJ3SrZY90NIpmcReqwm-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="C2 Server (CCC)&lt;div&gt;netbot_server.py&lt;/div&gt;&lt;div&gt;-----------------------------------------------&lt;/div&gt;&lt;div&gt;Lắng nghe TCP:5555&lt;/div&gt;&lt;div&gt;Reload netbot_config.py&lt;/div&gt;&lt;div&gt;Gửi lệnh LAUNCH/HALT/UPDATE&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vZJ3SrZY90NIpmcReqwm-4" edge="1" parent="1" source="vZJ3SrZY90NIpmcReqwm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZJ3SrZY90NIpmcReqwm-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZJ3SrZY90NIpmcReqwm-7" edge="1" parent="1" source="vZJ3SrZY90NIpmcReqwm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vZJ3SrZY90NIpmcReqwm-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZJ3SrZY90NIpmcReqwm-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Bot Client&lt;div&gt;netbot_client.py&lt;/div&gt;&lt;div&gt;----------------------------------------&lt;/div&gt;&lt;div&gt;-Gửi HEARTBEAT&lt;/div&gt;&lt;div&gt;-Nhận lệnh từ C2&lt;/div&gt;&lt;div&gt;-HTTPFLOOD&lt;/div&gt;&lt;div&gt;-Ping Flood&lt;/div&gt;&lt;div&gt;-Self-update&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="165" x="192.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vZJ3SrZY90NIpmcReqwm-5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="ATTACK_STATUS" vertex="1">
+          <mxGeometry height="30" width="120" x="270" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="vZJ3SrZY90NIpmcReqwm-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Target Server" vertex="1">
+          <mxGeometry height="60" width="120" x="215" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="vZJ3SrZY90NIpmcReqwm-8" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="ATTACK&lt;div&gt;(HTTP / PING FLOOD)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="269" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vZJ3SrZY90NIpmcReqwm-9" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="HEARTBEAT" vertex="1">
+          <mxGeometry height="30" width="90" x="280" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
